@@ -1,3 +1,7 @@
 theme: jekyll-theme-cayman
 title: Type-32's Official Website
 description: This is Type-32's Official Website! Here you can find all the work I have posted to GitHub.
+
+layout: page
+title: "My Contacts"
+permalink: https://type32official.github.io/about/contact-us
