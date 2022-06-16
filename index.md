@@ -1,13 +1,9 @@
 ## Welcome to Type-32's Official Website
 
 ### [My Contacts](https://type-32.github.io/type32official.github.io/about/contact-us)
-
-You can use the [editor on GitHub](https://github.com/Type-32/type32official.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### [My Minecraft Datapacks](https://type-32.github.io/type32official.github.io/minecraft-datapacks)
 
 ### Markdown
-BRUH THIS IS SCUFFED
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
