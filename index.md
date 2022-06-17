@@ -1,7 +1,7 @@
 ## Welcome to Type-32's Official Website
 
-### **[My Contacts]**(https://type-32.github.io/about/contact-us)
-### **[My Projects]**(https://type-32.github.io/about/projects)
+### **[My Contacts](https://type-32.github.io/about/contact-us)**
+### **[My Projects](https://type-32.github.io/about/projects)**
 
 ### Markdown
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
