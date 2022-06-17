@@ -10,7 +10,7 @@ I mainly work as the role of a **Minecraft Datapack Developer** when playing Min
 
 ### [Minecraft Mods](https://type-32.github.io/projects/minecraft-mods)
 
-I suboptimally work as the role of an amatuer **Minecraft Mod Developer** when playing Minecraft. The Mod platform I mainly develop my mods on is Fabric. Fabric is a lightweighted Modloader that has, in contrast to other relatively older modloaders that had previously existed, a more beginner-easy modloader API to begin on. My personal prefernce is Fabric is mainly due to its modernness to its up-to-date recent Minecraft Versions and its fast speed on updating to Minecraft Snapshots. More about Fabric, _[click here]_(fabricmc.net) to access their official website.
+I suboptimally work as the role of an amatuer **Minecraft Mod Developer** when playing Minecraft. I sometimes make my own mods and sometimes backport other older version mods into new versions. The Mod platform I mainly develop my mods on is Fabric. Fabric is a lightweighted Modloader that has, in contrast to other relatively older modloaders that had previously existed, a more beginner-easy modloader API to begin on. My personal prefernce is Fabric is mainly due to its modernness to its up-to-date recent Minecraft Versions and its fast speed on updating to Minecraft Snapshots. More about Fabric, _[click here]_(fabricmc.net) to access their official website.
 
 ## Game Developer
 
