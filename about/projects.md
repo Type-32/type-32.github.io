@@ -6,7 +6,7 @@ I enjoy playing on Minecraft Java, but I also enjoy making stuff on Minecraft Ja
 
 ### [Minecraft Datapacks](https://type-32.github.io/projects/minecraft-datapacks)
 
-I mainly work as the role of a **Minecraft Datapack Developer** when playing Minecraft. I have approximately 3 years of Minecraft Datapack Developing Experience and I utilize them to the fullest. I am able to make some quality Datapacks and can commission some personal ones for SMPs or public servers. You can contact me _[here](https://type-32.github.io/about/contact-us)_ which will bring you to my Discord server link and also my YouTube Channel Link.
+I mainly work as the role of a **Minecraft Datapack Developer** when playing Minecraft. I have approximately 3 years of Minecraft Datapack Developing Experience and I utilize them to the fullest. I am able to make some quality Datapacks and can commission some personal ones for SMPs or public servers. You can contact me [here](https://type-32.github.io/about/contact-us) which will bring you to my Discord server link and also my YouTube Channel Link.
 
 ### [Minecraft Mods](https://type-32.github.io/projects/minecraft-mods)
 
@@ -14,4 +14,4 @@ I suboptimally work as the role of an amatuer **Minecraft Mod Developer** when p
 
 ## Game Developer
 
-I enjoy playing games, as well as making them. I always wanted to make fabulous games and to play them myself, which is what have me motivated into studying Game Development. My game engine preference is _[Unity](unity3d.com)_ because it is a relatively lightweight engine and also extremely customizable by users for their own needs on their projects. I have learned one year of game development and worked on unity for approximately 6 ~ 8 months.
+I enjoy playing games, as well as making them. I always wanted to make fabulous games and to play them myself, which is what have me motivated into studying Game Development. My game engine preference is [Unity](unity3d.com) because it is a relatively lightweight engine and also extremely customizable by users for their own needs on their projects. I have learned one year of game development and worked on unity for approximately 6 ~ 8 months.
