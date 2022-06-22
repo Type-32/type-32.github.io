@@ -6,4 +6,6 @@
 
 The Modern Guns Datapack aims to administer a vanilla experience of Guns inside Minecraft Survival/Creative/Adventure Modes. This Datapack adds several guns into Minecraft as well as other gadgets such as Grenades and Flashbangs.
 
+![M14](https://github.com/Type-32/type-32.github.io/blob/gh-pages/m14.png)
+
 _Note: This Pack is Discontinued in April 2022._
