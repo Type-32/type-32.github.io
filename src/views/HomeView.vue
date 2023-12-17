@@ -59,12 +59,12 @@ const stringList = ref(
     ]
 )
 
-import pin1 from '@/assets/th (1).jpg'
-import pin2 from '@/assets/th (2).jpg'
-import pin3 from '@/assets/th (3).jpg'
-import pin4 from '@/assets/th (4).jpg'
-import pin5 from '@/assets/th (5).jpg'
-import pin6 from '@/assets/th (6).jpg'
+import pin1 from '@/assets/th1.jpg'
+import pin2 from '@/assets/th2.jpg'
+import pin3 from '@/assets/th3.jpg'
+import pin4 from '@/assets/th4.jpg'
+import pin5 from '@/assets/th5.jpg'
+import pin6 from '@/assets/th6.jpg'
 import pin7 from '@/assets/th.jpg'
 import pin8 from '@/assets/R.jpg'
 import AIChatWindow from "@/components/AIChatWindow.vue";
