@@ -9,8 +9,7 @@
     }
   ],
   "compilerOptions": {
-    "noImplicitAny": false,
-    "strict": false,
-    "checkJs": false
+    "skipLibCheck": true,
+    "esModuleInterop": true
   }
 }
