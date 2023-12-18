@@ -2,7 +2,7 @@
 import {ref} from "vue"
 import CardCarouselBackground from "@/components/CardCarouselBackground.vue";
 import Card from "@/components/items/Card.vue";
-import {NCard, NGradientText, NGrid, NGridItem, NText} from "naive-ui";
+import {NAffix, NCard, NGradientText, NGrid, NGridItem, NText} from "naive-ui";
 import BackgroundCards from "@/components/BackgroundCards.vue";
 const stringList = ref(
     [
@@ -79,37 +79,39 @@ const infoCardList = [
     {pin: pin7, title: "Privacy and Ease to Open Up", content: "AI offers greater privacy for the patients. People may feel more comfortable opening up about their mental health to an AI, which can lead to more effective treatment. AI Chatbots are associated with less stigma and people are more willing to open up to an AI than they would with just an online form at a self-help website."},
     {pin: pin8, title: "Efficiency", content: "AI can increase the efficiency and productivity of mental health services. This can help health professionals such as nurses to accomplish work effectively in practice settings such as mental health settings. AI can aid in the delivery of mental health services and significantly increase the efficiency and productivity of workplaces."}
 ]
-
+const containerRef = ref<HTMLElement | undefined>(undefined)
 </script>
 
 <template>
     <div class="flex flex-col min-h-screen p-4 bg-emerald-900">
-        <div class="relative">
-            <BackgroundCards :string-list="stringList"/>
-        </div>
-        <div class="flex-col absolute inset-0">
-            <div class="min-h-screen flex flex-col items-center justify-center text-center bg-zinc-900/80">
-                <div class="font-bold text-emerald-300 from-emerald-700 to-emerald-500 text-6xl">AI x Mental Health</div>
-                <AIChatWindow class="mt-5 w-96 sticky top-0"/>
+        <div ref="containerRef">
+            <div class="relative">
+                <BackgroundCards :string-list="stringList"/>
             </div>
-            <div class="flex flex-col bg-emerald-600 p-8">
-                <NGrid :x-gap="20" :y-gap="20" :cols="2">
-                    <NGridItem v-for="card in infoCardList">
-                        <NCard class="w-full h-full rounded-lg">
-                            <template class="flex gap-5">
-                                <div class="w-11/12 h-48 overflow-hidden rounded-lg">
-                                    <img class="w-full h-full object-cover" :src="card.pin" />
-                                </div>
-                                <div>
-                                    <div class="text-emerald-900 font-bold text-left text-3xl">{{card.title}}</div>
-                                    <p class="text-emerald-800 text-left mr-10 ml-2 text-md">{{card.content}}</p>
-                                </div>
-                            </template>
-                        </NCard>
-                    </NGridItem>
-                </NGrid>
+            <div class="flex-col absolute inset-0">
+                <div class="min-h-screen flex flex-col items-center justify-center text-center bg-zinc-900/80">
+                    <div class="font-bold text-emerald-300 from-emerald-700 to-emerald-500 text-6xl flex"><div class="mr-4 text-purple-500">AI</div> x Mental Health Assist</div>
+                    <div class="font-bold text-emerald-700 text-2xl mt-2">Seek and ye shall find help...</div>
+                    <AIChatWindow class="mt-2 w-[550px]"/>
+                </div>
+                <div class="flex flex-col bg-emerald-600 p-8">
+                    <NGrid :x-gap="20" :y-gap="20" :cols="2">
+                        <NGridItem v-for="card in infoCardList">
+                            <NCard class="w-full h-full rounded-lg">
+                                <template class="flex gap-5">
+                                    <div class="w-11/12 h-48 overflow-hidden rounded-lg">
+                                        <img class="w-full h-full object-cover" :src="card.pin" />
+                                    </div>
+                                    <div>
+                                        <div class="text-emerald-900 font-bold text-left text-3xl">{{card.title}}</div>
+                                        <p class="text-emerald-800 text-left mr-10 ml-2 text-md">{{card.content}}</p>
+                                    </div>
+                                </template>
+                            </NCard>
+                        </NGridItem>
+                    </NGrid>
+                </div>
             </div>
         </div>
-
     </div>
 </template>
