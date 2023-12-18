@@ -90,7 +90,7 @@ const infoCardList = [
         <div class="flex-col absolute inset-0">
             <div class="min-h-screen flex flex-col items-center justify-center text-center bg-zinc-900/80">
                 <div class="font-bold text-emerald-300 from-emerald-700 to-emerald-500 text-6xl">AI x Mental Health</div>
-                <AIChatWindow class="mt-5 w-4/12"/>
+                <AIChatWindow class="mt-5 w-96 sticky top-0"/>
             </div>
             <div class="flex flex-col bg-emerald-600 p-8">
                 <NGrid :x-gap="20" :y-gap="20" :cols="2">
