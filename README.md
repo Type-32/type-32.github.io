@@ -2,7 +2,7 @@
 
 ## Roadmap
 - [X] Basic Frontend Stuff & Content
-- [] Psychology AI Chat Function
+- [ ] Psychology AI Chat Function
 
 ## Recommended IDE Setup
 
