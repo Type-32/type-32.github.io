@@ -1,6 +1,8 @@
-# hosa_psych_website
+# HOSA Competition AI Psychology Assistance
 
-This template should help get you started developing with Vue 3 in Vite.
+## Roadmap
+- [X] Basic Frontend Stuff & Content
+- [ ] Psychology AI Chat Function
 
 ## Recommended IDE Setup
 
