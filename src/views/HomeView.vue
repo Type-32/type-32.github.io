@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import {ref} from "vue"
-import CardCarouselBackground from "@/components/CardCarouselBackground.vue";
-import Card from "@/components/items/Card.vue";
-import {NAffix, NCard, NGradientText, NGrid, NGridItem, NText} from "naive-ui";
+import {NCard, NGrid, NGridItem} from "naive-ui";
 import BackgroundCards from "@/components/BackgroundCards.vue";
 const stringList = ref(
     [
@@ -63,7 +61,6 @@ import pin1 from '@/assets/th1.jpg'
 import pin2 from '@/assets/th2.jpg'
 import pin3 from '@/assets/th3.jpg'
 import pin4 from '@/assets/th4.jpg'
-import pin5 from '@/assets/th5.jpg'
 import pin6 from '@/assets/th6.jpg'
 import pin7 from '@/assets/th.jpg'
 import pin8 from '@/assets/R.jpg'
@@ -96,11 +93,11 @@ const containerRef = ref<HTMLElement | undefined>(undefined)
                 </div>
                 <div class="flex flex-col bg-emerald-600 p-8">
                     <NGrid :x-gap="20" :y-gap="20" :cols="2">
-                        <NGridItem v-for="card in infoCardList">
+                        <NGridItem v-for="(card, index) in infoCardList" :key="index">
                             <NCard class="w-full h-full rounded-lg">
                                 <template class="flex gap-5">
                                     <div class="w-11/12 h-48 overflow-hidden rounded-lg">
-                                        <img class="w-full h-full object-cover" :src="card.pin" />
+                                        <img class="w-full h-full object-cover" :src="card.pin"  alt="psychimg"/>
                                     </div>
                                     <div>
                                         <div class="text-emerald-900 font-bold text-left text-3xl">{{card.title}}</div>

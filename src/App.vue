@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 import {NConfigProvider, NDialogProvider, NLoadingBarProvider, NMessageProvider, NNotificationProvider} from "naive-ui";
 import './style.css'
 </script>

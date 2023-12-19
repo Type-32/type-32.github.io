@@ -9,7 +9,7 @@ const props = defineProps({
 <template>
     <div class="flex w-fit">
         <NGrid :x-gap="10" :y-gap="10" :cols="5" class="w-fit">
-            <NGridItem v-for="item in stringList" class="flex">
+            <NGridItem v-for="(item, index) in stringList" class="flex" :key="index">
                 <NConfigProvider :theme="darkTheme">
                     <NCard class="bg-emerald-800" embedded><div class="flex text-emerald-100 font-bold">{{item}}</div></NCard>
                 </NConfigProvider>
