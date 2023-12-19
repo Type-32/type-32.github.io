@@ -37,5 +37,7 @@ jobs:
           #build_phase_node_env: 'dev'
           #debug_mode: 'true'
         id: deploy_to_pages
+        env:
+          VITE_OPENAI_API_KEY: ${{ vars.VITE_OPENAI_API_KEY }}
       - name: dump outputs
         run:  echo "${{steps.deploy_to_pages.outputs.github_pages_url}}"
