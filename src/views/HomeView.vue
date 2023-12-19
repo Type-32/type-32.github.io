@@ -2,6 +2,15 @@
 import {ref} from "vue"
 import {NCard, NGrid, NGridItem} from "naive-ui";
 import BackgroundCards from "@/components/BackgroundCards.vue";
+import pin1 from '@/assets/th1.jpg';
+import pin2 from '@/assets/th2.jpg';
+import pin3 from '@/assets/th3.jpg';
+import pin4 from '@/assets/th4.jpg';
+import pin6 from '@/assets/th6.jpg';
+import pin7 from '@/assets/th.jpg';
+import pin8 from '@/assets/R.jpg';
+import AIChatWindow from "@/components/AIChatWindow.vue";
+
 const stringList = ref(
     [
         "I'm feeling really anxious, can you help me calm down?",
@@ -56,15 +65,6 @@ const stringList = ref(
         "I'm having a lot of trust issues. Can you help me understand why?"
     ]
 )
-
-import pin1 from '@/assets/th1.jpg'
-import pin2 from '@/assets/th2.jpg'
-import pin3 from '@/assets/th3.jpg'
-import pin4 from '@/assets/th4.jpg'
-import pin6 from '@/assets/th6.jpg'
-import pin7 from '@/assets/th.jpg'
-import pin8 from '@/assets/R.jpg'
-import AIChatWindow from "@/components/AIChatWindow.vue";
 
 const infoCardList = [
     {pin: pin1, title: "Early Detection and Accurate Diagnosis", content: "AI can analyze patterns in behavior and language to help therapists and doctors identify mental health conditions earlier. This early detection is vital because it can reduce the risk of depression and substance-abuse problems. Studies have shown that AI is more than 90% accurate in detecting early-onset anxiety using sensors to detect behaviors such as nail-biting, tapping the fingers, and cracking knuckles."},
