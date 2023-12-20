@@ -93,7 +93,7 @@ const gotoHelp = () => {
                 <div class="gap-2 min-h-screen flex flex-col items-center justify-center text-center bg-zinc-900/80">
                     <div class="font-bold text-emerald-300 from-emerald-700 to-emerald-500 text-6xl flex"><div class="mr-4 text-purple-500">AI</div> x Mental Health Assist</div>
                     <div class="font-bold text-emerald-700 text-2xl mt-2">Seek and ye shall find help...</div>
-                    <AIChatWindow class="w-1/2"/>
+                    <AIChatWindow class="w-8/12"/>
                 </div>
                 <div class="flex flex-col bg-emerald-600 p-8 gap-5">
                     <div class="text-center text-white font-bold text-4xl">The Advantages</div>
