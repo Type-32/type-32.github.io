@@ -14,7 +14,7 @@ const message = useMessage();
 const userInput = ref<string>('');
 const chatMessages = ref<ChatMessage[]>([]);
 const jwtMessages = reactive<ChatMessage[]>([{ role: "system", content: `You are a psychology therapist that helps patients who has distress in maintaining a well and stable mental health. You are to provide proper advice to your patient, whom you're talking to in this conversation, and give extra resources to help the patient. You can respond in markdown format. However, you are limited to only 600 characters per response, so limit your responses under that count. If the user asks for more details and explanations, you can respond to under 1000 characters.` }]);
-const apiKey = process.env.VITE_OPENAI_API_KEY; // Ensure the key name starts with VITE_ to be exposed to your app
+const apiKey = import.meta.env.VITE_OPENAI_API_KEY; // Ensure the key name starts with VITE_ to be exposed to your app
 const loading = ref(false)
 const allowActions = ref(false)
 
