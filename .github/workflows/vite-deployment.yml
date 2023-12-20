@@ -33,7 +33,7 @@ jobs:
       - name: Vite Github Pages Deployer
         uses: skywarth/vite-github-pages-deployer@v1.3.0
         env:
-          VITE_OPENAI_API_KEY: ${{ vars.VITE_OPENAI_API_KEY }}
+          VITE_OPENAI_API_KEY: ${{ secrets.VITE_OPENAI_API_KEY }}
         #with:
           #install_phase_node_env: 'production'
           #build_phase_node_env: 'dev'
