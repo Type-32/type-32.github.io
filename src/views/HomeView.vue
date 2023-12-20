@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {ref} from "vue"
-import {NCard, NGrid, NGridItem} from "naive-ui";
+import {NCard, NDivider, NGradientText, NGrid, NGridItem, NTooltip} from "naive-ui";
 import BackgroundCards from "@/components/BackgroundCards.vue";
 import pin1 from '@/assets/th1.jpg';
 import pin2 from '@/assets/th2.jpg';
@@ -10,6 +10,7 @@ import pin6 from '@/assets/th6.jpg';
 import pin7 from '@/assets/th.jpg';
 import pin8 from '@/assets/R.jpg';
 import AIChatWindow from "@/components/AIChatWindow.vue";
+import Copyrights from "@/components/Copyrights.vue";
 
 const stringList = ref(
     [
@@ -77,6 +78,9 @@ const infoCardList = [
     {pin: pin8, title: "Efficiency", content: "AI can increase the efficiency and productivity of mental health services. This can help health professionals such as nurses to accomplish work effectively in practice settings such as mental health settings. AI can aid in the delivery of mental health services and significantly increase the efficiency and productivity of workplaces."}
 ]
 const containerRef = ref<HTMLElement | undefined>(undefined)
+const gotoHelp = () => {
+    window.open("https://www.nimh.nih.gov/health/find-help", "_blank")
+}
 </script>
 
 <template>
@@ -91,7 +95,8 @@ const containerRef = ref<HTMLElement | undefined>(undefined)
                     <div class="font-bold text-emerald-700 text-2xl mt-2">Seek and ye shall find help...</div>
                     <AIChatWindow class="w-1/2"/>
                 </div>
-                <div class="flex flex-col bg-emerald-600 p-8">
+                <div class="flex flex-col bg-emerald-600 p-8 gap-5">
+                    <div class="text-center text-white font-bold text-4xl">The Advantages</div>
                     <NGrid :x-gap="20" :y-gap="20" :cols="2">
                         <NGridItem v-for="(card, index) in infoCardList" :key="index">
                             <NCard class="w-full h-full rounded-lg">
@@ -107,6 +112,12 @@ const containerRef = ref<HTMLElement | undefined>(undefined)
                             </NCard>
                         </NGridItem>
                     </NGrid>
+                    <NDivider/>
+                    <div>
+                        <div class="text-white text-center text-3xl font-bold">Need Extra Help? ---> <NTooltip trigger="hover" :delay="600"><template #trigger><NButton text @click="gotoHelp" class="text-emerald-200 cursor-pointer">Don't Hesitate.</NButton></template>Click for help!</NTooltip></div>
+                    </div>
+                    <NDivider/>
+                    <Copyrights/>
                 </div>
             </div>
         </div>
