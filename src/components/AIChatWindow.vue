@@ -74,7 +74,7 @@ function handleFormSubmit() {
 </script>
 
 <template>
-    <div class="w-fit h-fit bg-transparent rounded-lg backdrop-blur ring-[1px] ring-zinc-200/60 p-3">
+    <div class="h-fit bg-transparent rounded-lg backdrop-blur ring-[1px] ring-zinc-200/60 p-3">
         <NConfigProvider :theme="darkTheme" class="gap-3">
             <NSpin :show="loading">
                 <template #description>
